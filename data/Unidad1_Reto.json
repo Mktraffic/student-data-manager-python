@@ -1,104 +1,141 @@
 [
   {
-    "codigo": "2026-01-01-001",
-    "nombres": "Ana Maria",
-    "apellidos": "Lopez, Perez",
-    "documento": 12345678,
+    "codigo": "20210278001",
+    "nombres": {
+      "primer_nombre": "Juan",
+      "segundo_nombre": "Carlos"
+    },
+    "apellidos": {
+      "primer_apellido": "Perez",
+      "segundo_apellido": "Rubiano"
+    },
+    "documento": 123,
     "tipo": "CC",
     "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
     "asignaturas": [
       {
         "facultad": "Ingenieria",
-        "nombre": "Gestion de Datos",
-        "nota": 4.5,
-        "creditos": 3,
-        "retirada": "No",
-        "fecha": "2026-02-01"
-      },
-      {
-        "facultad": "Ingenieria",
-        "nombre": "Analitica",
-        "nota": 4.0,
-        "creditos": 2,
-        "retirada": "No",
-        "fecha": "2026-02-01"
-      },
-      {
-        "facultad": "Ingenieria",
-        "nombre": "Programacion",
-        "nota": 3.2,
-        "creditos": 3,
-        "retirada": "Si",
-        "fecha": "2026-02-01"
-      }
-    ]
-  },
-  {
-    "codigo": "2026-01-01-002",
-    "nombres": "Luis",
-    "apellidos": "Gomez, Torres",
-    "documento": 87654321,
-    "tipo": "CC",
-    "programa": "Ingenieria de Sistemas",
-    "asignaturas": [
-      {
-        "facultad": "Ingenieria",
-        "nombre": "Gestion de Datos",
+        "nombre": "Calculo 1",
         "nota": 3.8,
-        "creditos": 3,
-        "retirada": "No",
-        "fecha": "2026-02-01"
+        "creditos": 4,
+        "retirada": "Si",
+		"fecha":"01/11/2021"
       },
       {
-        "facultad": "Ingenieria",
-        "nombre": "Analitica",
-        "nota": 3.6,
-        "creditos": 2,
-        "retirada": "No",
-        "fecha": "2026-02-01"
-      },
-      {
-        "facultad": "Ingenieria",
-        "nombre": "Estadistica",
-        "nota": 4.2,
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 2.4,
         "creditos": 3,
         "retirada": "No",
-        "fecha": "2026-02-01"
+		"fecha":"01/11/2021"
+      },
+	  {
+        "facultad": "Ingenieria",
+        "nombre": "Programacion I",
+        "nota": 3.3,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
       }
     ]
   },
   {
-    "codigo": "2026-01-01-003",
-    "nombres": "Carlos Andres",
-    "apellidos": "Martinez, Diaz",
-    "documento": 11223344,
-    "tipo": "TI",
-    "programa": "Ingenieria Industrial",
+    "codigo": "20210294001",
+    "nombres": {
+      "primer_nombre": "Luis"
+    },
+    "apellidos": {
+      "primer_apellido": "Ramirez",
+      "segundo_apellido": "Moreno"
+    },
+    "documento": 6879,
+    "tipo": "CC",
+    "programa": "Ingenieria Electronica",
+	"codigo_programa": "94",
     "asignaturas": [
       {
         "facultad": "Ingenieria",
-        "nombre": "Gestion de Datos",
-        "nota": 4.9,
+        "nombre": "Calculo 1",
+        "nota": 2.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/11/2021"
+      },
+      {
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 3.4,
         "creditos": 3,
         "retirada": "No",
-        "fecha": "2026-02-01"
+		"fecha":"01/11/2021"
       },
+	  {
+        "facultad": "Ingenieria",
+        "nombre": "Introduccion a la Ingenieria",
+        "nota": 3.3,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+  }
+  ]  
+  },
+    {
+    "codigo": "20220178001",
+    "nombres": {
+      "primer_nombre": "Laura",
+      "segundo_nombre": "Camila"
+    },
+    "apellidos": {
+      "primer_apellido": "Salinas",
+      "segundo_apellido": "Fonseca"
+    },
+    "documento": 879345,
+    "tipo": "TI",
+    "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
+    "asignaturas": [
       {
         "facultad": "Ingenieria",
-        "nombre": "Estadistica",
-        "nota": 3.7,
-        "creditos": 3,
-        "retirada": "Si",
-        "fecha": "2026-02-01"
+        "nombre": "Calculo 1",
+        "nota": 3.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
+      }
+  ]  
+  },
+  {
+    "codigo": "20220178002",
+    "nombres": {
+      "primer_nombre": "Pedro",
+      "segundo_nombre": "Luis"
+    },
+    "apellidos": {
+      "primer_apellido": "Flechas",
+      "segundo_apellido": "Salamanca"
+    },
+    "documento": 9345787,
+    "tipo": "TI",
+    "programa": "Ingenieria de Sistemas",
+	"codigo_programa": "78",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Programacion I",
+        "nota": 2.8,
+        "creditos": 4,
+        "retirada": "No",
+		"fecha":"01/06/2022"
       },
       {
-        "facultad": "Administracion",
-        "nombre": "Economia",
-        "nota": 4.1,
-        "creditos": 2,
+        "facultad": "Ciencias",
+        "nombre": "Fisica II",
+        "nota": 3.3,
+        "creditos": 3,
         "retirada": "No",
-        "fecha": "2026-02-01"
+		"fecha":"01/06/2022"
       }
-    ]
+  ]  
   }
 ]
