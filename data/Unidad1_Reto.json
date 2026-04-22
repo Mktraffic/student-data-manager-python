@@ -1,0 +1,104 @@
+[
+  {
+    "codigo": "2026-01-01-001",
+    "nombres": "Ana Maria",
+    "apellidos": "Lopez, Perez",
+    "documento": 12345678,
+    "tipo": "CC",
+    "programa": "Ingenieria de Sistemas",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Gestion de Datos",
+        "nota": 4.5,
+        "creditos": 3,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Analitica",
+        "nota": 4.0,
+        "creditos": 2,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Programacion",
+        "nota": 3.2,
+        "creditos": 3,
+        "retirada": "Si",
+        "fecha": "2026-02-01"
+      }
+    ]
+  },
+  {
+    "codigo": "2026-01-01-002",
+    "nombres": "Luis",
+    "apellidos": "Gomez, Torres",
+    "documento": 87654321,
+    "tipo": "CC",
+    "programa": "Ingenieria de Sistemas",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Gestion de Datos",
+        "nota": 3.8,
+        "creditos": 3,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Analitica",
+        "nota": 3.6,
+        "creditos": 2,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Estadistica",
+        "nota": 4.2,
+        "creditos": 3,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      }
+    ]
+  },
+  {
+    "codigo": "2026-01-01-003",
+    "nombres": "Carlos Andres",
+    "apellidos": "Martinez, Diaz",
+    "documento": 11223344,
+    "tipo": "TI",
+    "programa": "Ingenieria Industrial",
+    "asignaturas": [
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Gestion de Datos",
+        "nota": 4.9,
+        "creditos": 3,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Ingenieria",
+        "nombre": "Estadistica",
+        "nota": 3.7,
+        "creditos": 3,
+        "retirada": "Si",
+        "fecha": "2026-02-01"
+      },
+      {
+        "facultad": "Administracion",
+        "nombre": "Economia",
+        "nota": 4.1,
+        "creditos": 2,
+        "retirada": "No",
+        "fecha": "2026-02-01"
+      }
+    ]
+  }
+]
